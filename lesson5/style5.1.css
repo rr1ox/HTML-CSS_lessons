@@ -1,0 +1,19 @@
+.first>ul>li:nth-child(even){
+  color: #f61cc5;
+}
+
+.second>ul>li{
+  font-size: 22px;
+}
+
+.third>ul>li:nth-child(2n+4):after{
+    content: "!";
+}
+
+.forth>ul>li:last-child{
+  color: #9100f5;
+}
+.fifth>ul>li:first-letter{
+  font-size: 30px;
+  color: #ef0000;
+}
