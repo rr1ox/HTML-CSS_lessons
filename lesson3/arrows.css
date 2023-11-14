@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', Serif, sans-serif;
+    font-size: 1.325em;
+}
+html{
+    scroll-behavior: smooth;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-direction: column;
+}
+#blue{
+    height: 100vh;
+    width: 100vw;
+    background: #8b8bce;
+}
+#violet{
+    height: 100vh;
+    width: 100vw;
+    background: #a664e3;
+}
+#pink{
+    height: 100vh;
+    width: 100vw;
+    background: #ee72b0;
+}
+
+p{
+    min-height: 250px;
+    max-width: 450px;
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 800px){
+    .item1, .item3{
+        height: 20vh;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item2{
+        height: 80vh;
+    }
+}

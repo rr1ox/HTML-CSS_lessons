@@ -1,0 +1,65 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.first_name{
+    width: 140px;
+    height: 30px;
+}
+.last_name{
+    width: 180px;
+    height: 30px;
+}
+input[type='email']{
+    width: 332px;
+    height: 30px;
+}
+input[type="password"]{
+    width: 332px;
+    height: 30px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    width: 340px;
+    font-size: 0.7em;
+    color: #8f8f8f;
+}
+a{
+    color: #000;
+    text-decoration: none;
+
+}
+
+.btn{
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 35px;
+    width: 340px;
+    background-color: #ffd53b;
+    color: #383838;
+    border: 1px solid #be9113;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom, #ffd53b 0%, #ffd53b 51%, #e3b115 100%);
+}

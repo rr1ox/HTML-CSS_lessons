@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', Serif, serif;
+}
+header, .nav{
+    height: 20vh;
+    width: 100vw;
+    background: #d5d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.link_nav{
+    text-decoration: none;
+    color: gray;
+    margin-right: 90px;
+}
+.link_nav:active{
+    color: cadetblue;
+}
+.active_color{
+    color: #2779dc;
+}
+main{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+h1{
+    max-height: 202px;
+    max-width: 388px;
+    font-size: 2.4em;
+}
+section{
+    max-height: 300px;
+    max-width: 1250px;
+    font-size: 1.4em;
+}

@@ -1,0 +1,54 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+header{
+    height: 20vh;
+    width: 100vw;
+    background: lightgray;
+    margin-bottom: 0;
+}
+main{
+    height: 70vh;
+    width: 100vw;
+
+
+}
+.omg{
+    height: 35vh;
+    background-color: gray;
+}
+.container{
+    display: flex;
+
+}
+section{
+    height: 35vh;
+    width: 60vw;
+    background: #464646;
+}
+article{
+    height: 35vh;
+    width: 40vw;
+    background: #262626;
+
+}
+footer{
+    background: lightgray;
+    height: 10vh;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+

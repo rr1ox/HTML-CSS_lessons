@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cube1{
+    font-family: 'Rubik Pixels', Serif, serif;
+}
+.cube2{
+    font-family: 'Sedwick Ave Display', cursive;
+}
+.cube3{
+    font-family: 'Dancing Script', serif;
+}
+.cube4{
+    font-family: 'Fjalla One', Serif, serif;
+}
+.cube5{
+    font-family: 'Indie Flower', Serif, serif;
+}
+.size{
+    width: 200px;
+    height: 200px;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

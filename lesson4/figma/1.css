@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    height: 20vh;
+    width: 100vw;
+    background-color: #c5c0c0;
+}
+
+footer{
+    height: 20vh;
+    width: 100vw;
+    background-color: #757272;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+}
+article{
+    height: 60vh;
+    width: 15vw;
+    background-color: #414040;
+
+}
+aside{
+    height: 60vh;
+    width: 15vw;
+    background-color: #595151;
+}
+.content1{
+    height: 30vh;
+    width: 70vw;
+    background-color: #d3b0b0;
+}
+.content2{
+    height: 30vh;
+    width: 70vw;
+    background-color: #917c7c;
+}

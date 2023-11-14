@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.widgets{
+    width: 100%;
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wtext{
+    font-family: Calibri, sans-serif;
+    color: aliceblue;
+    font-size: 60px;
+}
+
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 10px;
+}
+.side{
+    width: 490px;
+    height: 490px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact{
+    width: 100%;
+    height: 1200px;
+    margin-top: 10px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

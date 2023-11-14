@@ -1,0 +1,27 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    margin: 0;
+
+}
+.container{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 60px;
+
+
+}
+img, ul{
+    margin-left: 40px;
+    width:864px;
+    height: 717px;
+
+}
+h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+ol{
+    max-width: 1300px;
+}

@@ -1,0 +1,33 @@
+@media screen and (max-width: 800px){
+    body{
+        margin: 0;}
+
+    .item1, .item6{
+        height: 20vh;
+        background-color: #ee72b0;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item2{
+        height: 30vh;
+        background-color: #442eaf;
+    }
+
+    .item3, .item4, .item5{
+        height: 20vh;
+        width: 25vw;
+    }
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+}
+.item3{
+    background-color: #8b8bce;
+}
+
